@@ -9,7 +9,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
       'Ein handgefertigter Ritualstab aus Eichenholz, verziert mit natürlichen Kristallen und Ritualgravuren. Perfekt für Zeremonien und Meditation.',
     images: [
       {
-        url: '/placeholder-product-1.svg',
+        url: 'placeholder-product-1.svg',
         altText: 'Handgefertigter Ritualstab aus Eichenholz',
       },
     ],
@@ -39,7 +39,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
       'Ein handgemachter Satz aus natürlichen Räucherstäbchen, inklusive Sandelholz, Salbei und Lavendel. Ideal für Reinigungsrituale.',
     images: [
       {
-        url: '/placeholder-product-2.svg',
+        url: 'placeholder-product-2.svg',
         altText: 'Mystischer Räucherstäbchen-Satz',
       },
     ],
@@ -69,7 +69,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
       'Ein handgefertigtes Schutz-Amulett mit Aventurin-Kristall, umwickelt in natürlichem Leder und Kupferdraht. Bringt Frieden und Schutz.',
     images: [
       {
-        url: '/placeholder-product-3.svg',
+        url: 'placeholder-product-3.svg',
         altText: 'Schutz-Amulett aus Aventurin',
       },
     ],
@@ -99,7 +99,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
       'Ein handgemachtes Aura-Spray ätherische Öle zur Ausrichtung und Reinigung der Chakren. Enthält Lavendel, Bergamotte und Ylang-Ylang.',
     images: [
       {
-        url: '/placeholder-product-4.svg',
+        url: 'placeholder-product-4.svg',
         altText: 'Energetische Aura-Spray Chakra-Ausgleich',
       },
     ],
