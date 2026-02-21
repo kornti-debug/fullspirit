@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { getImagePath } from '@/lib/image-path'
 
 export default function HeroSection() {
   return (
     <section className="relative py-20 px-4 overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/hero-bg.jpeg')" }}
+        style={{ backgroundImage: `url('${getImagePath('/hero-bg.jpeg')}')` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background-alt/90 via-background/80 to-background" />
       <div className="container mx-auto max-w-4xl text-center relative z-10">

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { getImagePath } from '@/lib/image-path'
 
 export default function StorytellingSection() {
   return (
@@ -36,7 +37,7 @@ export default function StorytellingSection() {
           <div className="relative aspect-square md:aspect-video bg-primary/10 rounded-lg overflow-hidden">
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: "url('/storyteller.jpeg')" }}
+              style={{ backgroundImage: `url('${getImagePath('/storyteller.jpeg')}')` }}
             />
           </div>
         </div>
