@@ -17,14 +17,14 @@ export default function StorytellingSection() {
                 getrocknete Kräuter, Heilsteine und ätherische Öle.
               </p>
               <p>
-                Unsere energetischen Stäbe, Räuchermischungen und Amulette werden mit
-                spezifischen Absichten erstellt, um Sie auf Ihrer spirituellen Reise zu begleiten.
-                Jedes Stück ist ein Unikat, getragen von der Energie des Handwerkers und der
-                Kraft der verwendeten Materialien.
+                Unsere energetischen Stäbe, Räuchermischungen und Amulette werden mit spezifischen
+                Absichten erstellt, um Sie auf Ihrer spirituellen Reise zu begleiten. Jedes Stück
+                ist ein Unikat, getragen von der Energie des Handwerkers und der Kraft der
+                verwendeten Materialien.
               </p>
               <p>
-                Entdecken Sie unsere Seminare und lernen Sie, diese spirituellen Werkzeuge
-                selbst herzustellen und in Ihrer Praxis anzuwenden.
+                Entdecken Sie unsere Seminare und lernen Sie, diese spirituellen Werkzeuge selbst
+                herzustellen und in Ihrer Praxis anzuwenden.
               </p>
             </div>
             <div className="mt-8">
@@ -33,11 +33,11 @@ export default function StorytellingSection() {
               </Link>
             </div>
           </div>
-          <div className="relative aspect-square md:aspect-video bg-primary/10 rounded-lg flex items-center justify-center">
-            <div className="text-center p-8">
-              <p className="text-foreground font-almendra text-2xl mb-4">Natur. Handwerk. Spiritualität.</p>
-              <p className="text-muted-foreground">Platzhalter für mystisches Bild</p>
-            </div>
+          <div className="relative aspect-square md:aspect-video bg-primary/10 rounded-lg overflow-hidden">
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{ backgroundImage: "url('/storyteller.jpeg')" }}
+            />
           </div>
         </div>
       </div>

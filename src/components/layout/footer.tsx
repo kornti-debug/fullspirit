@@ -7,9 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold font-almendra text-foreground mb-4">
-              Mystische Handwerkskunst
-            </h3>
+            <h3 className="text-xl font-bold font-almendra text-foreground mb-4">Full Spirit</h3>
             <p className="text-sm text-muted-foreground">
               Handgefertigte spirituelle Werkzeuge mit Liebe zur Natur und Tradition.
             </p>
@@ -18,7 +16,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold font-almendra text-foreground mb-4">Navigation</h4>
             <ul className="space-y-2">
-              {NAVIGATION_LINKS.map((link) => (
+              {NAVIGATION_LINKS.map(link => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -42,7 +40,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Mystische Handwerkskunst. Alle Rechte vorbehalten.</p>
+          <p>&copy; {new Date().getFullYear()} Full Spirit. Alle Rechte vorbehalten.</p>
         </div>
       </div>
     </footer>

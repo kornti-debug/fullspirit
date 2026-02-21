@@ -15,7 +15,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-xl md:text-2xl font-bold font-almendra text-foreground">
-            Mystische Handwerkskunst
+            Full Spirit
           </span>
         </Link>
 

@@ -6,7 +6,7 @@ import Footer from '@/components/layout/footer'
 import { CartProvider } from '@/contexts/cart-context'
 
 export const metadata: Metadata = {
-  title: 'Mystische Handwerkskunst',
+  title: 'Full Spirit',
   description: 'Handgefertigte spirituelle Werkzeuge, Liköre und Seminare',
 }
 

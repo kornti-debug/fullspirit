@@ -13,7 +13,7 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   const { addItem } = useCart()
-  const imageUrl = product.images[0]?.url || '/placeholder.jpg'
+  const imageUrl = product.images[0]?.url || '/placeholder-product-1.svg'
   const price = product.priceRange.minVariantPrice.amount
 
   const handleAddToCart = (e: React.MouseEvent) => {

@@ -34,7 +34,7 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
           <div className="space-y-4">
             <div className="relative aspect-square bg-card rounded-lg overflow-hidden border border-border">
               <Image
-                src={images[selectedImage]?.url || '/placeholder.jpg'}
+                src={images[selectedImage]?.url || '/placeholder-product-1.svg'}
                 alt={images[selectedImage]?.altText || product.title}
                 fill
                 className="object-cover"
